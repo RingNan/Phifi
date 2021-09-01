@@ -49,7 +49,7 @@ const Routes = () => {
       />
       <Route
         exact
-        path="/"
+        path="/tokeneconomic"
         render={matchProps => (
           <WithLayout
             {...matchProps}
@@ -60,7 +60,7 @@ const Routes = () => {
       />
       <Route
         exact
-        path="/charity"
+        path="/"
         render={matchProps => (
           <WithLayout {...matchProps} component={Charity} layout={MainLayout} />
         )}
